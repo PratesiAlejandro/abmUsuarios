@@ -248,13 +248,20 @@
 				//var_dump($usuarioBuscado);
 				//die();
 
-				$nuevoDiv = "<h3>Usuario a Modificar</h3>
-							<input type='text' id='nombreModif' value='$usuarioBuscado->nombre'>
-							<input type='text' id='mailModif' value='$usuarioBuscado->mail'>	
-							<input type='text' id='claveModif' value='$usuarioBuscado->clave'>
-							<input type='text' id='tipoModif' value='$usuarioBuscado->tipo'>
-							<button onclick=Modificar($id)>Modificar</button>";
-
+				$nuevoDiv = " <div class='table-responsive'>
+				 <table class='table'>
+                   
+                  <tr>
+                    <td><input type='text' class='form-control input-sm' id='nombreModif' value='$usuarioBuscado->nombre'></td>
+                    </tr>
+                    <td><input type='text' class='form-control input-sm' id='mailModif' value='$usuarioBuscado->mail'></td>
+                    </tr>
+                    <td><input type='text' class='form-control input-sm' id='claveModif' value='$usuarioBuscado->clave'></td>
+                    </tr>
+                    <td><input type='text' class='form-control input-sm' id='tipoModif' value='$usuarioBuscado->tipo'></td>
+                    </tr>
+                    <td><button class='btn btn-success btn-sm' onclick=Modificar($id)>Guardar</button></td>
+			 </tr></table></div>";
               echo $nuevoDiv;
               break;	
 

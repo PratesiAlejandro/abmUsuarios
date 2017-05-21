@@ -516,7 +516,7 @@ function Modificar(id)
 	.done(function (respuesta) { 
 		//alert(respuesta);
 		MostrarGrillaAdmin();
-		$("#grillaAdminModificar").html("");
+		$("#grillaAdminModificar").html(respuesta);
 
 	})
 	.fail(function (jqXHR, textStatus, errorThrown) { 
