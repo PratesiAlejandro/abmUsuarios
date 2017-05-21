@@ -1,0 +1,82 @@
+<html>
+<head>
+	<title>Registro</title>
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/funciones.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="../css/estilo.css"> -->
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style>
+body {background-color: white ;}
+
+</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+
+					</li>
+					<li><a href="index.php">Menu Principal</a></li>
+					<li><a href="#"></a></li>
+				</ul>
+				
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<h3>Crear cuenta</h3>
+			<form class="form-signin" onsubmit="Agregar();return false;">
+				<table class="table" >
+					<tr><td>	
+						<input type="text" id="nombreReg" class="form-control" placeholder="Nombre" required="">	
+					</td></tr>
+					<tr><td>
+						<input type="email" id="mailReg" class="form-control" placeholder="Correo" required="">
+
+					</td></tr>
+					<tr><td>
+						<input type="password" pattern="\d*" id="claveReg" class="form-control" placeholder="Clave" required='' >
+					</td></tr>
+					<!-- <tr><td>
+						<input type="file" name="foto" id="archivo" class="form-control" required="">
+					</td></tr> -->
+					<!-- <input type="radio" name="tipo" id="usuario" value="user">Usuario -->
+					<tr><td>
+						<input type="radio" name="tipo" id="administrador" value="administrador" required> Administrador
+					</td></tr>
+					<tr><td>
+						<input type="radio" name="tipo" id="comprador" value="comprador" required> Usuario
+					</td></tr>
+					<!-- <tr><td>
+						<input type="radio" name="tipo" id="vendedor" value="vendedor" required> Vendedor
+					</td></tr> -->
+					<tr><td>
+						<button type="submit" class="btn btn-success  btn-block">Registrarme</button>
+					</td></tr>
+				</table>
+			</form>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+	</div>
+</body>
+</html>

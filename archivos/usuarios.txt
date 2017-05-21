@@ -1,0 +1,10 @@
+dani@hotmail.com=>daniel=>1234=>administrador=>../tmp/dani@hotmail.com.jpg
+mariano@hotmail.com=>mariano=>1234=>administrador=>../tmp/mariano@hotmail.com.jpg
+lolo@hotmail.com=>lolo=>1234=>administrador=>../tmp/lolo@hotmail.com.jpg
+ven@hotmail.com=>ven=>1234=>vendedor=>../tmp/ven@hotmail.com.jpg
+c@hotmail.com=>c=>1234=>comprador=>../tmp/c@hotmail.com.jpg
+pepe@hotmail.com=>pepe=>1234=>administrador=>../tmp/pepe@hotmail.com.jpg
+ssss@hotmail=>sss=>1234=>administrador=>../tmp/ssss@hotmail.jpg
+gu@hotmail=>gu=>tres=>administrador=>../tmp/gu@hotmail.jpg
+kiko@hotmail.com=>kiko=>ffdd=>administrador=>../tmp/kiko@hotmail.com.jpg
+ale@hotmail.com=>ale=>1234=>administrador=>../tmp/ale@hotmail.com.jpg
